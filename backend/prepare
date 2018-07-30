@@ -7,4 +7,5 @@ then
     exit 1
 fi
 # install heavy packages used by backend
-mkdir -p /root/dummy/backend && cd /root/dummy/backend
+mkdir -p /root/dummy/backend && cd /root/dummy/backend && \
+    echo "No extra package to install"
